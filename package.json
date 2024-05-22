@@ -5,7 +5,7 @@
   "scripts": {
     "start:Server": "nodemon ./dist/server.js",
     "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "start-t":"tsc -w",
+    "start-t": "tsc -w",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "prettier --write .",
